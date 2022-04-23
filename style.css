@@ -12,6 +12,34 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* Inicio */
+
+#home {
+    margin-top: 125px;
+    height: 100vh;
+}
+
+.logoBanner {
+    width: 110px;
+    height: auto;
+}
+
+#home .container .main-title {
+    letter-spacing: 1px;
+}
+
+.btnHome {
+    transition: .7s;
+}
+
+.btnHome:focus {
+    box-shadow: none;
+}
+
+
+/* Barra de navegação */
+
 .row {
     margin: 0;
 }
@@ -25,12 +53,13 @@ li {
     font-size: 14px;
 }
 
-
-/* Barra de navegação */
-
 header,
 .navbar {
     background-color: #353D41;
+}
+
+.navbar-nav a:hover {
+    background-color: #2d3535;
 }
 
 #nav-container {
@@ -39,7 +68,8 @@ header,
 }
 
 #logo {
-    width: 75px;
+    width: 45px;
+    margin-right: 15px;
 }
 
 .nav-brand {
@@ -61,23 +91,36 @@ a:hover {
 }
 
 .navbar-toggler {
-    outline: 0;
+    border: 0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 
 /* MAIN SOBRE NOS */
 
+.main-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+
+/* 
 .main-title::after {
     content: "";
-    border-top: 3px solid #65DAF9;
+    border-top: 3px solid rgb(171, 121, 232);
     width: 60px;
     position: absolute;
-    top: 145px;
-    left: 50%;
-}
+    top: 942px;
+    left: 51.5%;
+} */
 
 #services-area {
     margin-top: 40px;
+    color: #fff;
 }
 
 .services-box {
@@ -93,10 +136,10 @@ a:hover {
 svg {
     font-size: 90px;
     width: 40px;
-    color: #333;
+    color: #fff;
 }
 
 .services-box:hover>svg,
 .services-box:hover>h4 {
-    color: #65DAF9;
+    color: rgb(171, 121, 232);
 }
