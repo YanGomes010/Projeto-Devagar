@@ -16,7 +16,7 @@ body {
 /* Inicio */
 
 #home {
-    margin-top: 101px;
+    margin-top: 88px;
     height: 92vh;
     background-color: #313131;
 }
@@ -58,7 +58,7 @@ li {
 
 header,
 .navbar {
-    background-color: #313131;
+    background-color: #212529;
 }
 
 .navbar-nav a:hover {
@@ -76,7 +76,7 @@ header,
 }
 
 .nav-brand {
-    padding: 20px;
+    padding: 12px;
     color: #fff;
     text-decoration: none;
 }
