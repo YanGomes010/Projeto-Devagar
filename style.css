@@ -16,8 +16,9 @@ body {
 /* Inicio */
 
 #home {
-    margin-top: 165px;
-    height: 93vh;
+    margin-top: 101px;
+    height: 92vh;
+    background-color: #313131;
 }
 
 .logoBanner {
@@ -57,7 +58,7 @@ li {
 
 header,
 .navbar {
-    background-color: #353D41;
+    background-color: #313131;
 }
 
 .navbar-nav a:hover {
@@ -75,16 +76,17 @@ header,
 }
 
 .nav-brand {
-    padding: 0;
+    padding: 20px;
     color: #fff;
     text-decoration: none;
 }
 
-a:hover {
+#navbar-link a {
     color: #fff;
+    border-radius: 15px;
 }
 
-#navbar-link a {
+a:hover {
     color: #fff;
 }
 
@@ -107,6 +109,14 @@ a:hover {
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
     margin-bottom: 30px;
+}
+
+.main-title-style {
+    color: rgb(175, 126, 235);
+}
+
+.span-title {
+    color: rgb(219, 189, 255);
 }
 
 
@@ -132,13 +142,17 @@ a:hover {
 
 .services-box svg,
 .services-box h4 {
-    transition: .4s;
+    transition: .6s;
 }
 
 svg {
     font-size: 90px;
     width: 40px;
     color: #fff;
+}
+
+.services-box:hover>svg {
+    transform: scale(1.5);
 }
 
 .services-box:hover>svg,
@@ -156,10 +170,61 @@ svg {
 }
 
 .p-team {
+    margin-top: 10px;
     font-size: 25px;
     text-align: center;
 }
 
 .row-p-2 {
     margin-top: 40px;
+}
+
+.photo-team,
+.col-md-3 {
+    transition: .5s;
+}
+
+.col-md-3:hover>.photo-team {
+    transform: scale(1.1);
+}
+
+.text-col-md-3:hover {
+    color: rgb(171, 121, 232);
+}
+
+
+/* CURSOS */
+
+.card-course {
+    background-color: #313131;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.card-course h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+
+.card-course span {
+    font-family: 'Inter', sans-serif;
+}
+
+.caract {
+    bottom: 10px;
+    right: 14px;
+}
+
+.span-level {
+    margin-right: 25px;
+}
+
+.span-level-int {
+    margin-right: 68px;
+}
+
+.span-level-int-2 {
+    margin-right: 12px;
 }
