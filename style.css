@@ -16,8 +16,8 @@ body {
 /* Inicio */
 
 #home {
-    margin-top: 125px;
-    height: 100vh;
+    margin-top: 165px;
+    height: 93vh;
 }
 
 .logoBanner {
@@ -31,6 +31,8 @@ body {
 
 .btnHome {
     transition: .7s;
+    padding: 15px;
+    font-size: 23px;
 }
 
 .btnHome:focus {
@@ -103,7 +105,7 @@ a:hover {
 
 .main-title {
     font-family: 'Oswald', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 30px;
 }
 
@@ -142,4 +144,22 @@ svg {
 .services-box:hover>svg,
 .services-box:hover>h4 {
     color: rgb(171, 121, 232);
+}
+
+
+/* INSTRUTORES */
+
+.photo-team {
+    width: 100px;
+    height: 100px;
+    border: 50%;
+}
+
+.p-team {
+    font-size: 25px;
+    text-align: center;
+}
+
+.row-p-2 {
+    margin-top: 40px;
 }
