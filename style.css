@@ -119,20 +119,19 @@ a:hover {
     color: rgb(219, 189, 255);
 }
 
-
-/* 
-.main-title::after {
+.main-title-style::after {
     content: "";
-    border-top: 3px solid rgb(171, 121, 232);
-    width: 60px;
+    border-top: 5px solid rgb(171, 121, 232);
+    border-radius: 190px;
+    width: 95px;
     position: absolute;
-    top: 942px;
-    left: 51.5%;
-} */
+    top: 59px;
+    left: 42.5%;
+}
 
 #services-area {
-    margin-top: 40px;
     color: #fff;
+    background-image: linear-gradient(to bottom, #313131, #212529);
 }
 
 .services-box {
@@ -162,6 +161,20 @@ svg {
 
 
 /* INSTRUTORES */
+
+.team-title {
+    letter-spacing: 2px;
+}
+
+.team-title::after {
+    content: "";
+    position: absolute;
+    border-top: 4px solid rgb(219, 189, 255);
+    border-radius: 190px;
+    width: 95px;
+    top: 59px;
+    left: 44.5%;
+}
 
 .photo-team {
     width: 100px;
@@ -195,6 +208,20 @@ svg {
 
 /* CURSOS */
 
+#courses {
+    background-image: linear-gradient(to bottom, #212529, #1c1c1c);
+}
+
+.course-title::after {
+    content: "";
+    border-top: 6px solid rgb(171, 121, 232);
+    border-radius: 190px;
+    width: 60px;
+    position: absolute;
+    top: 60px;
+    left: 50.5%;
+}
+
 .card-course {
     background-color: #313131;
     width: 400px;
@@ -227,4 +254,34 @@ svg {
 
 .span-level-int-2 {
     margin-right: 12px;
+}
+
+
+/* FOOTER*/
+
+.ul-footer {
+    list-style: none;
+    margin-right: 0;
+}
+
+.ul-footer a {
+    text-decoration: none;
+}
+
+.li-footer {
+    background-color: transparent;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.li-footer:hover {
+    color: rgb(202, 202, 202);
+}
+
+.medias svg {
+    transition: 0.4s;
+}
+
+.medias svg:hover {
+    color: rgb(171, 121, 232);
 }

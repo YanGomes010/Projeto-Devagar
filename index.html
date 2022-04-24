@@ -34,6 +34,10 @@
             #services-area {
                 margin-top: 0px;
             }
+            .medias svg {
+                width: 35px;
+                height: 35px;
+            }
         }
         
         @media screen and (max-width: 767px) {
@@ -45,6 +49,20 @@
             }
             .btnHome {
                 width: 50%;
+            }
+            .li-footer {
+                text-align: center;
+                margin-left: -25px;
+            }
+            .empresa {
+                text-align: center;
+            }
+            .logo-footer {
+                text-align: center;
+                margin: auto;
+            }
+            .box-grid-footer {
+                justify-content: center;
             }
         }
         
@@ -77,7 +95,7 @@
                         <a href="#services-area" class="nav-item nav-link" id="about-menu">Sobre</a>
                         <a href="#team" class="nav-item nav-link" id="team-menu">Time</a>
                         <a href="#courses" class="nav-item nav-link" id="portfolio-menu">Cursos</a>
-                        <a href="" class="nav-item nav-link" id="contact-menu">Contato</a>
+                        <a href="#contact" class="nav-item nav-link" id="contact-menu">Contato</a>
                     </div>
                 </div>
             </nav>
@@ -101,7 +119,7 @@
         <!-- Sobre os serviços -->
         <section id="services-area">
             <div class="container">
-                <div class="row">
+                <div class="row position-relative">
                     <div class="col-12">
                         <h3 class="main-title main-title-style text-center">
                             Sobre <span class="span-title"> Nós</span>
@@ -110,32 +128,32 @@
                     <div class="col-md-4 services-box">
                         <i class="fas fa-mobile-alt"></i>
                         <h4>Aplicativos nativos</h4>
-                        <p>utilizamos o real poder dos dispositivos moveis usando aplicativos nativos</p>
+                        <p> Lorem Ipsum has been the industry's standard dummy the 1500s</p>
                     </div>
                     <div class="col-md-4 services-box">
                         <i class="fas fa-shopping-cart"></i>
                         <h4>E-commerce</h4>
-                        <p>Plataforma própria de mercado virtual e variados tipos de cursos para o seu melhor aprendizado!</p>
+                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                     </div>
                     <div class="col-md-4 services-box">
                         <i class="fa-solid fa-users"></i>
                         <h4>Alunos</h4>
-                        <p>+7.580 alunos ativos mensalmente em nossa plataforma online</p>
+                        <p> Lorem Ipsum has been the industry's standard dummy text ever </p>
                     </div>
                     <div class="col-md-4 services-box">
                         <i class="fa-solid fa-award"></i>
                         <h4>Certificados</h4>
-                        <p>Certificados reconhecidos reconhecidos em todo território nacional</p>
+                        <p> Lorem Ipsum has been the industry's y text ever since the 1500s</p>
                     </div>
                     <div class="col-md-4 services-box">
                         <i class="fa-solid fa-paper-plane"></i>
                         <h4>Suporte</h4>
-                        <p>Suporte com instrutores capacitados e prontos para lhe ajudar em qualquer problema</p>
+                        <p> Lorem Ipsum has been the industry's standard dummy since the 1500s</p>
                     </div>
                     <div class="col-md-4 services-box">
                         <i class="fa-solid fa-download"></i>
                         <h4>Conteúdo</h4>
-                        <p>Todas as aulas e apostilas completas, disponiveis para download</p>
+                        <p> Lorem Ipsum has been the dummy text ever since the 1500s</p>
                     </div>
 
                 </div>
@@ -145,9 +163,9 @@
         <!-- Time -->
         <section id="team" class="text-light">
             <div class="container">
-                <div class="row text-center">
+                <div class="row text-center position-relative">
                     <div class="col-12 mb-5">
-                        <h3 class="main-title text-center">Instrutores</h3>
+                        <h3 class="main-title team-title text-center">Instrutores</h3>
                     </div>
                     <div class="col-md-3 text-col-md-3">
                         <i class="photo-team fa-regular  fa-face-smile"></i>
@@ -185,7 +203,7 @@
 
                     <div class="col-md-3 text-col-md-3">
                         <i class="photo-team fa-regular  fa-face-smile"></i>
-                        <p class="p-team">Instrutor</p>
+                        <p class="p-team ">Instrutor</p>
                     </div>
 
 
@@ -196,9 +214,14 @@
         <!-- CURSOS -->
         <section id="courses">
             <div class="container text-light">
-                <div class="row justify-content-around">
+                <div class="row justify-content-around position-relative">
                     <div class="col-12 mb-5">
-                        <h3 class="main-title text-light text-center">Cursos</h3>
+                        <h3 class="main-title course-title text-light text-center">Cursos</h3>
+                    </div>
+                    <div class="row mb-4 mt-4">
+                        <div class="col-12 ">
+                            <h5 class="text-warning"> <span class="fw-bold">12 </span>cursos disponiveis.</h5>
+                        </div>
                     </div>
                     <!-- CARD 1 -->
                     <div class="card-course d-flex flex-column col-md-3 position-relative">
@@ -383,10 +406,119 @@
                             </div>
                         </div>
                     </div>
+                    <!-- CARD 10 -->
+                    <div class="card-course d-flex flex-column col-md-3 position-relative">
+                        <div class="d-flex justify-content-between">
+                            <h3 class="mt-4">CURSO - Parte #</h3>
+                            <img src="./logo-roxa.png" alt="" width="80px" height="70px">
+                        </div>
+                        <div class="mt-3">
+                            <span class="">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</span>
+                        </div>
+                        <div class="position-absolute caract">
+                            <div class="d-flex justify-content-end align-items-center">
+                                <span class="fw-normal span-level">Duração</span>
+                                <span class="fw-normal span-level">Nivel</span>
+                            </div>
+                            <div class=" d-flex justify-content-end align-items-center">
+                                <span class="span-level-int">#h</span>
+                                <span class="span-level-int-2">(#nivel)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CARD 11 -->
+                    <div class="card-course d-flex flex-column col-md-3 position-relative">
+                        <div class="d-flex justify-content-between">
+                            <h3 class="mt-4">CURSO - Parte #</h3>
+                            <img src="./logo-roxa.png" alt="" width="80px" height="70px">
+                        </div>
+                        <div class="mt-3">
+                            <span class="">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</span>
+                        </div>
+                        <div class="position-absolute caract">
+                            <div class="d-flex justify-content-end align-items-center">
+                                <span class="fw-normal span-level">Duração</span>
+                                <span class="fw-normal span-level">Nivel</span>
+                            </div>
+                            <div class=" d-flex justify-content-end align-items-center">
+                                <span class="span-level-int">#h</span>
+                                <span class="span-level-int-2">(#nivel)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CARD 12 -->
+                    <div class="card-course d-flex flex-column col-md-3 position-relative">
+                        <div class="d-flex justify-content-between">
+                            <h3 class="mt-4">CURSO - Parte #</h3>
+                            <img src="./logo-roxa.png" alt="" width="80px" height="70px">
+                        </div>
+                        <div class="mt-3">
+                            <span class="">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</span>
+                        </div>
+                        <div class="position-absolute caract">
+                            <div class="d-flex justify-content-end align-items-center">
+                                <span class="fw-normal span-level">Duração</span>
+                                <span class="fw-normal span-level">Nivel</span>
+                            </div>
+                            <div class=" d-flex justify-content-end align-items-center">
+                                <span class="span-level-int">#h</span>
+                                <span class="span-level-int-2">(#nivel)</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer>
+        <!-- CONTATO -->
+        <div class="container">
+            <section id="contact" class="row justify-content-between">
+                <div class="text-light empresa col-md-3">
+                    <img class="logo-footer d-block" src="./logo-roxa.png" alt="Logo" width="80px" height="70px">
+                    <span class="d-block">CursosIndep S.A</span>
+                    <span>CNPJ 00.000.000/0000-00</span>
+                </div>
+                <div class="text-start text-light col-md-3">
+                    <h3 class="text-center">Navegação</h3>
+                    <ul class="ul-footer">
+                        <a href="#home">
+                            <li class="li-footer">Inicio</li>
+                        </a>
+                        <a href="#services-area">
+                            <li class="li-footer">Sobre</li>
+                        </a>
+                        <a href="#team">
+                            <li class="li-footer">Time</li>
+                        </a>
+                        <a href="#courses">
+                            <li class="li-footer">Cursos</li>
+                        </a>
+                        <a href="#contact">
+                            <li class="li-footer">Contato</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-md-3 medias">
+                    <h3 class="text-light text-center ">Redes Sociais</h3>
+                    <div class="row row-cols-auto justify-content-center">
+                        <div class="col">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="col">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="col">
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                        <div class="col">
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
 </body>
 
 </html>
