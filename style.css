@@ -239,6 +239,11 @@ svg {
     font-family: 'Inter', sans-serif;
 }
 
+.card-course a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .caract {
     bottom: 10px;
     right: 14px;
